@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+       <p>
+        Vous souhaitez changer de carriere </br>
+        Retrouvez<a
+        onclick="launchSite()" link="https://openclassrooms.com">
+        <span>OpenCalssrooms</span> </a> et commencez a apprendre.
+       </p>
+
+
+
+
+
+
+    </head>
+    <body>

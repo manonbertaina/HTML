@@ -1,0 +1,296 @@
+.filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-gap: 150px;
+}
+
+.header a{
+  
+                grid-template-columns: 100px 100px 100px;
+                grid-template-rows: 1px;
+                float: right;
+                margin-left: 100px;
+               }
+  
+
+.Populaires{
+    
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 100px 100px;
+    grid-gap: 300px;
+    
+ 
+justify-content: center;}
+
+ .Populaires{
+    width: 1100px;
+    height: 700px;
+    border: 3px solid hsl(330, 25%, 3%);
+    background: #e2e2db;
+    margin: auto;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+ 
+    
+    }
+
+
+
+
+.titre_populaires {text-align: center;}
+.titre_hebergements{text-align: center;}
+.titre_activités{text-align: center;}
+
+
+
+
+
+.soleil{
+    width:300px;
+    height:200px;
+    font-size: 15px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    }
+.bleu{
+     width:300px;
+    height:200px;
+    font-size: 15px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    }
+
+.eau{
+
+        width : 300px;
+       height : 200px;
+       font-size: 15px;
+       background-color:antiquewhite;
+       border-radius: 10px;
+       box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+       padding: 8px;
+   }
+
+
+
+.soleil{
+   
+
+
+    grid-column: 1;
+    grid-row: 1;
+}
+.eau{
+ 
+
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.bleu{
+    float: right; /* force l'image à droite*/
+    margin-left: 300px; /*évite que le texte ne touche le sujet*/
+ }
+
+
+
+    .elements {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        grid-gap: 300px;
+        width: 1600px;
+        height: 800px;
+        border: 3px solid hsl(330, 25%, 3%);
+        background: #e2e2db;
+        margin: auto;
+        padding: 15px 25px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+.info {
+    width : 10px;
+height : 10px;
+}
+.cannebiere{
+    width : 300px;
+    height : 200px;
+    font-size: 15px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    }
+
+   
+      
+    
+.port{
+    width : 300px;
+    height : 200px;
+    font-size: 15px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+        }
+.mouettes{
+    width : 300px;
+    height : 200px;
+    font-size: 15px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+        }
+.mer{
+    width : 300px;
+    height :200px;
+    font-size: 15px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+        }
+
+.amina{
+    width:300px;
+    height:200px;
+    font-size: 15px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+        }
+.panier{
+    width:300px;
+    height:200px;
+    font-size: 15px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+     }
+
+    
+
+
+    
+
+
+    .Activités {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        grid-gap: 150px;
+    }
+    
+    .Activité_Vieux_Port {
+
+
+        grid-column: 1;
+        grid-row: 1/2;
+    }
+    
+    .Activité_Fort_de_Pomègues {
+        grid-column: 2;
+        grid-row: 1 ;
+    }
+    
+     
+    .Activité_Parc_Lonchamps{
+        grid-column: 4;
+        grid-row: 2;
+    }
+    
+    .Parc_National_des_Calanques {
+        grid-column: 3;
+        grid-row: 1/2;
+    }
+    
+    
+    .Îles_du_Frioul{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .Notre-Dame-De-La-Garde{
+        grid-column: 4;
+        grid-row: 1;
+    }
+    
+    
+    .Port{
+        width : 400px;
+        height :500px;
+        font-size: 15px;
+        background-color:antiquewhite;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+            }
+    .Fort{
+    
+         width : 400px;
+        height : 175px;
+        font-size: 15px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    .Frioul{
+        width:400px;
+        height:175px;
+        font-size: 15px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        }
+
+    
+    .Calanques{
+        width:400px;
+        height:500px;
+        font-size: 15px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        padding: 10px;}
+    
+ 
+  
+    .Notre-Dame-De-La-Garde{
+         width:400px;
+        height:175px;
+        font-size: 15px;
+        background-color:antiquewhite;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        padding: 8px;
+        }
+
+        .Parc{
+            width:400px;
+            font-size: 10px;
+            background-color: antiquewhite;
+            border-radius: 15px;
+            box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            height:225px;}
+
+
+            .bas {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 100px;
+                grid-gap: 300px;}
